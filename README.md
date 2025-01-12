@@ -79,3 +79,8 @@ Please create another variable.
   ]
 }
 ```
+### New to Kotlin Notebook?
+You can write a self-documented notebook that combine source code and run result. 
+Those results can be directly read on GitHub. Getting started here: https://kotlinlang.org/docs/kotlin-notebook-set-up-env.html 
+![github-notebook](assets/notebook.png)
+![notebook](assets/github-notebook.png)
