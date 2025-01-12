@@ -16,9 +16,10 @@ allow others to run, learn and contribute together!
   * [Neo4J query](neo4j/neo4j-vanilla.ipynb)
 * [PostgreSQL](postgres/)
   * [PostgreSQL query and visualize dataframe](postgres/postgres-vanilla.ipynb)
-* [Langchain(Planned)](langchain/)
+* [langchain4j(Planned)](langchain4j/)
 * [Kotlin new features by version(Planned)](kotlin-new-feature-by-version/)
 * ... more
+* Feel free to share your Kotlin Notebook to accelerate together
 
 You might also interested to read the [official Kotlin Notebooks sample](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples).
 
