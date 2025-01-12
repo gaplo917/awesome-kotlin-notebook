@@ -1,6 +1,6 @@
 # Awesome Kotlin Notebooks
 A curated list of awesome Kotlin Notebook that can be run instantly in IntelliJ to 
-accelerate building Kotlin experiments using 3rd party libraries! 
+accelerate building Kotlin experiments, especially GenAI PoC, using 3rd party libraries! 
 
 If you are a kotlin beginning, follow the `README.md` to run the notebook to learn different libraries.
 
