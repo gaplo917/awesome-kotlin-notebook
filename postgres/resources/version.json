@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "POSTGRES_VERSION": "42.7.4",
+    "KRANGL_VERSION":"0.18.4"
+  },
+  "init": [
+    "val postgresVersion = \"$POSTGRES_VERSION\"",
+    "val kranglVersion = \"$KRANGL_VERSION\""
+  ]
+}

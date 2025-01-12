@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "PG_URI": "jdbc:postgresql://localhost:5432/db",
+    "PG_USERNAME": "pgadmin",
+    "PG_PASSWORD": "local_database_only"
+  },
+  "init": [
+    "val uri = \"$PG_URI\"",
+    "val username = \"$PG_USERNAME\"",
+    "val password = \"$PG_PASSWORD\""
+  ]
+}

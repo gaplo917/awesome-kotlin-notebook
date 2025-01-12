@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "NEO4J_VERSION": "5.27.0"
+  },
+  "init": [
+    "val neo4jVersion = \"$NEO4J_VERSION\""
+  ]
+}

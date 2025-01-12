@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "OPENAI_API_KEY": "sk-proj-xxx"
+  },
+  "init": [
+    "val openAiKey = \"$OPENAI_API_KEY\""
+  ]
+}

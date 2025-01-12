@@ -1,0 +1,15 @@
+version: '3'
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j_db
+    volumes:
+      - ./docker-cache/neo4j/logs:/logs
+      - ./docker-cache/neo4j/config:/config
+      - ./docker-cache/neo4j/data:/data
+      - ./docker-cache/neo4j/plugins:/plugins
+    environment:
+      - NEO4J_AUTH=neo4j/local_database_only
+    ports:
+      - "7474:7474"
+      - "7687:7687"

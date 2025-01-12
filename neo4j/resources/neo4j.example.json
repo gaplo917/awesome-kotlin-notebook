@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "NEO4J_URI": "neo4j://localhost:7687",
+    "NEO4J_USERNAME": "neo4j",
+    "NEO4J_PASSWORD": "local_database_only"
+  },
+  "init": [
+    "val uri = \"$NEO4J_URI\"",
+    "val username = \"$NEO4J_USERNAME\"",
+    "val password = \"$NEO4J_PASSWORD\""
+  ]
+}
