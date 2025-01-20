@@ -7,7 +7,7 @@ If you are a kotlin beginning, follow the `README.md` to run the notebook to lea
 If you are a java/kotlin library owner, showcase your library using Kotlin Notebook and 
 allow others to run, learn and contribute together!
 
-## List of Kotlin Notebookes
+## List of Kotlin Notebooks
 
 * [Spring AI](spring-ai/)
   * [Ollama example](spring-ai/spring-ai-ollama.ipynb)
@@ -19,6 +19,9 @@ allow others to run, learn and contribute together!
 * [LLM Model Context Protocol for Kotlin(Planned)](mcp-kotlin-sdk/)
 * [langchain4j(Planned)](langchain4j/)
 * [Kotlin new features by version(Planned)](kotlin-new-feature-by-version/)
+* [AWS SDK for Kotlin(Planned)]
+* [GCP SDK(Planned)]
+* [Azure SDK(Planned)]
 * ... more
 * Feel free to share your Kotlin Notebook to accelerate together
 
