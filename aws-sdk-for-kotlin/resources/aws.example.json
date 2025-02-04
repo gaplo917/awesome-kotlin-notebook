@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "AWS_ACCESS_KEY_ID": "AKXXXXXXXXXXXXXXX",
+    "AWS_SECRET_ACCESS_KEY": "XXXXXXXXXXXXXXXXXX",
+    "AWS_SESSION_TOKEN": ""
+  },
+  "init": [
+    "val accessKeyId = \"$AWS_ACCESS_KEY_ID\"",
+    "val secretAccessKey = \"$AWS_SECRET_ACCESS_KEY\"",
+    "val sessionToken = \"$AWS_SESSION_TOKEN\""
+  ]
+}

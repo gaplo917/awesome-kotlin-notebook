@@ -16,10 +16,10 @@ allow others to run, learn and contribute together!
   * [Neo4J query](neo4j/neo4j-vanilla.ipynb)
 * [PostgreSQL](postgres/)
   * [PostgreSQL query and visualize dataframe](postgres/postgres-vanilla.ipynb)
+* [AWS SDK for Kotlin](aws-sdk-for-kotlin)
 * [LLM Model Context Protocol for Kotlin(Planned)](mcp-kotlin-sdk/)
 * [langchain4j(Planned)](langchain4j/)
 * [Kotlin new features by version(Planned)](kotlin-new-feature-by-version/)
-* [AWS SDK for Kotlin(Planned)]
 * [GCP SDK(Planned)]
 * [Azure SDK(Planned)]
 * ... more
