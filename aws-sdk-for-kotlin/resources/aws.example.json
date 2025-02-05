@@ -1,12 +1,12 @@
 {
   "properties": {
     "AWS_ACCESS_KEY_ID": "AKXXXXXXXXXXXXXXX",
-    "AWS_SECRET_ACCESS_KEY": "XXXXXXXXXXXXXXXXXX",
-    "AWS_SESSION_TOKEN": ""
+    "AWS_SECRET_ACCESS_KEY": "XXXXXXXXXXXXXXXXXX"
   },
   "init": [
-    "val accessKeyId = \"$AWS_ACCESS_KEY_ID\"",
-    "val secretAccessKey = \"$AWS_SECRET_ACCESS_KEY\"",
-    "val sessionToken = \"$AWS_SESSION_TOKEN\""
+    "import aws.smithy.kotlin.runtime.auth.awscredentials.Credentials",
+    "import aws.smithy.kotlin.runtime.auth.awscredentials.CredentialsProvider",
+    "import aws.smithy.kotlin.runtime.collections.Attributes",
+    "val kotlinNotebookCredentialProvider = object: CredentialsProvider { override suspend fun resolve(attributes: Attributes): Credentials { return Credentials(\"$AWS_ACCESS_KEY_ID\", \"$AWS_SECRET_ACCESS_KEY\") } }"
   ]
 }
