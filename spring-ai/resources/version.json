@@ -2,11 +2,13 @@
   "properties": {
     "SPRING_AI_VERSION": "1.0.0-M5",
     "KOTLIN_COROUTINE_VERSION": "1.9.0",
-    "REACTOR_VERSION": "3.7.1"
+    "REACTOR_VERSION": "3.7.1",
+    "JACKSON_KOTLIN_MODULE": "2.8.2"
   },
   "init": [
     "val springAiVersion = \"$SPRING_AI_VERSION\"",
     "val kotlinCoroutineVersion = \"$KOTLIN_COROUTINE_VERSION\"",
-    "val reactorVersion = \"$REACTOR_VERSION\""
+    "val reactorVersion = \"$REACTOR_VERSION\"",
+    "val jacksonKotlinModule = \"$JACKSON_KOTLIN_MODULE\""
   ]
 }
