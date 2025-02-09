@@ -1,10 +1,10 @@
 {
   "properties": {
     "POSTGRES_VERSION": "42.7.4",
-    "KRANGL_VERSION":"0.18.4"
+    "KOTLIN_DATAFRAME_VERSION": "0.15.0"
   },
   "init": [
     "val postgresVersion = \"$POSTGRES_VERSION\"",
-    "val kranglVersion = \"$KRANGL_VERSION\""
+    "val kotlinDataFrameVersion = \"$KOTLIN_DATAFRAME_VERSION\""
   ]
 }
