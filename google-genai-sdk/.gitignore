@@ -1,0 +1,21 @@
+# Credentials
+credentials.json
+
+# Gradle
+.gradle/
+build/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
