@@ -20,9 +20,10 @@ allow others to run, learn and contribute together!
   * [Amazon S3](aws-sdk-for-kotlin/aws-sdk-s3.ipynb)
   * [Bedrock](aws-sdk-for-kotlin/aws-sdk-bedrock.ipynb)
   * [Bedrock Runtime Converse](aws-sdk-for-kotlin/aws-sdk-bedrock-converse.ipynb)
-* [LLM Model Context Protocol for Kotlin(Planned)](mcp-kotlin-sdk/)
-* [langchain4j(Planned)](langchain4j/)
-* [Kotlin new features by version(Planned)](kotlin-new-feature-by-version/)
+* [Google GenAI SDK](google-genai-sdk)
+  * [Gemini](google-genai-sdk/gemini-examples.ipynb)
+* [langchain4j](langchain4j/)
+  * [MCP Client Vertex AI](langchain4j/langchain4j-mcp-client-vertexai.ipynb)
 * [GCP SDK(Planned)]
 * [Azure SDK(Planned)]
 * ... more
