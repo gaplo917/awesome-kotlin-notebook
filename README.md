@@ -45,12 +45,6 @@ Here is the reference folder structure.
     └── spring-ai-ollama.ipynb
 ```
 
-### GCP local development
-Your local Kotlin Notebook can load your GCP application credential after you autheticate with the follow commands. 
-
-```bash
-gcloud auth application-default login
-```
 
 ## New to Kotlin Notebook?
 You can write a self-documented notebook that combine source code and run result. 
