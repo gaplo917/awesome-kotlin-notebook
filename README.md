@@ -29,7 +29,7 @@ allow others to run, learn and contribute together!
 * ... more
 * Feel free to share your Kotlin Notebook to accelerate together
 
-You might also interested to read the [official Kotlin Notebooks sample](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples).
+You might also be interested to read the [official Kotlin Notebooks sample](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples).
 
 ## Folder structure design
 To ease the dependency version upgrade and minimize manual error, I setup a convention to store dependency version and
@@ -40,53 +40,11 @@ Here is the reference folder structure.
 .
 └── spring-ai/
     ├── resources/
-    │   ├── version.json
     │   └── openai.secret.json (openai.example.json for reference)
     ├── spring-ai-openai.ipynb
     └── spring-ai-ollama.ipynb
 ```
 
-Load the `version.json` variables
-```jupyter
-%use @file[resources/version.json](currentDir=".")
-```
-For example, the following `version.json` will create the variables for Kotlin Notebook.
-```json
-{
-  "properties": {
-    "SPRING_AI_VERSION": "1.0.0-M5",
-    "KOTLIN_COROUTINE_VERSION": "1.9.0",
-    "REACTOR_VERSION": "3.7.1"
-  },
-  "init": [
-    "val springAiVersion = \"$SPRING_AI_VERSION\"",
-    "val kotlinCoroutineVersion = \"$KOTLIN_COROUTINE_VERSION\"",
-    "val reactorVersion = \"$REACTOR_VERSION\""
-  ]
-}
-```
-Screenshots:
-![load-version-json.png](assets/load-version-json.png)
-
-### Major version upgarde
-In case there is a major version upgrade for the third party library that contains breakchanges. 
-Please create another variable.
-```diff
-{
-  "properties": {
-    "SPRING_AI_VERSION": "1.0.0-M5",
-+   "SPRING_AI_V2_VERSION": "2.0.0",
-    "KOTLIN_COROUTINE_VERSION": "1.9.0",
-    "REACTOR_VERSION": "3.7.1"
-  },
-  "init": [
-    "val springAiVersion = \"$SPRING_AI_VERSION\"",
-    "val springAiV2Version = \"$SPRING_AI_V2_VERSION\"",
-    "val kotlinCoroutineVersion = \"$KOTLIN_COROUTINE_VERSION\"",
-    "val reactorVersion = \"$REACTOR_VERSION\""
-  ]
-}
-```
 ### GCP local development
 Your local Kotlin Notebook can load your GCP application credential after you autheticate with the follow commands. 
 
