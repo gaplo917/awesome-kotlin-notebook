@@ -21,7 +21,7 @@ allow others to run, learn and contribute together!
   * [Bedrock](aws-sdk-for-kotlin/aws-sdk-bedrock.ipynb)
   * [Bedrock Runtime Converse](aws-sdk-for-kotlin/aws-sdk-bedrock-converse.ipynb)
 * [Google GenAI SDK](google-genai-sdk)
-  * [Gemini](google-genai-sdk/gemini-examples.ipynb)
+  * [Gemini](google-genai-sdk/vertexai-gemini-examples.ipynb)
 * [langchain4j](langchain4j/)
   * [MCP Client Vertex AI](langchain4j/langchain4j-mcp-client-vertexai.ipynb)
 * [GCP SDK(Planned)]
