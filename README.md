@@ -9,7 +9,7 @@ allow others to run, learn and contribute together!
 
 ## List of Kotlin Notebooks
 
-* [Koog](koog/)
+* [Koog (Kotlin native AI Agent framework by JetBrains)](koog/) 
   * [Koog A2A Server](koog/koog-a2a-server.ipynb)
   * [Koog A2A Client](koog/koog-a2a-client.ipynb)
 * [Spring AI](spring-ai/)
@@ -32,8 +32,8 @@ allow others to run, learn and contribute together!
 
 You might also be interested to read the 
 
-- [official Kotlin Notebooks sample](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples).
-- [official Koog Notebooks sample](https://github.com/JetBrains/koog/tree/develop/examples/notebooks)
+- [official Kotlin Notebooks](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples)
+- [official Koog Notebooks](https://github.com/JetBrains/koog/tree/develop/examples/notebooks)
 
 ## Use latest Kotlin Notebook Kernal
 
