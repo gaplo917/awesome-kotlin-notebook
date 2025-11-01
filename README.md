@@ -9,6 +9,9 @@ allow others to run, learn and contribute together!
 
 ## List of Kotlin Notebooks
 
+* [Koog](koog/)
+  * [Koog A2A Server](koog/koog-a2a-server.ipynb)
+  * [Koog A2A Client](koog/koog-a2a-client.ipynb)
 * [Spring AI](spring-ai/)
   * [Ollama example](spring-ai/spring-ai-ollama.ipynb)
   * [OpenAI example](spring-ai/spring-ai-openai.ipynb)
@@ -24,12 +27,20 @@ allow others to run, learn and contribute together!
   * [Gemini](google-genai-sdk/vertexai-gemini-examples.ipynb)
 * [langchain4j](langchain4j/)
   * [MCP Client Vertex AI](langchain4j/langchain4j-mcp-client-vertexai.ipynb)
-* [GCP SDK(Planned)]
-* [Azure SDK(Planned)]
 * ... more
 * Feel free to share your Kotlin Notebook to accelerate together
 
-You might also be interested to read the [official Kotlin Notebooks sample](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples).
+You might also be interested to read the 
+
+- [official Kotlin Notebooks sample](https://github.com/Kotlin/kotlin-jupyter/tree/master/samples).
+- [official Koog Notebooks sample](https://github.com/JetBrains/koog/tree/develop/examples/notebooks)
+
+## Use latest Kotlin Notebook Kernal
+
+Go to Settings > Tools > Kotlin Notebooks > Kernal
+
+![](assets/kotlin-notebook-kernal-version.png)
+
 
 ## Folder structure design
 To ease the dependency version upgrade and minimize manual error, I setup a convention to store dependency version and
