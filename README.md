@@ -51,3 +51,10 @@ You can write a self-documented notebook that combine source code and run result
 Those results can be directly read on GitHub. Getting started here: https://kotlinlang.org/docs/kotlin-notebook-set-up-env.html 
 ![github-notebook](assets/notebook.png)
 ![notebook](assets/github-notebook.png)
+
+
+## Running on Kotlin Notebook on Vertex AI Workbench
+
+See https://github.com/gaplo917/kotlin-vertexai-workbench-container
+
+![](assets/sample-screen.png)
